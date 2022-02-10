@@ -38,18 +38,17 @@ select {
 section {
     height: 100vh;
     width: 100%;
+    position: relative;
+    margin: 0 auto;
+    /* max-width: 1200px; */
 }
 
 #opening {
-    margin: 0 auto;
-    position: relative;
     background-color: #efd592;
 }
 
 #closing {
-    position: relative;
     background-color: #4343f9;
-    margin: 0 auto;
 }
 
 button {
@@ -65,11 +64,11 @@ button.button1 {
     height: 200px;
     border-radius: 100px;
     background-color: #242d38;
-    font-weight: 200;
-    text-transform: uppercase;
     font-size: 24px;
-    letter-spacing: 0.2em;
     color: #efd592;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 button.button2 {
@@ -80,11 +79,11 @@ button.button2 {
     height: 60px;
     color: #242d38;
     border: 6px solid #242d38;
-    text-transform: uppercase;
     font-size: 21px;
+    font-weight: 700;
     color: #242d38;
     letter-spacing: 0.2em;
-    font-weight: 700;
+    text-transform: uppercase;
 }
 
 button.button3 {
@@ -99,5 +98,4 @@ button.button3 {
     font-size: 21px;
     color: #ffffff;
     font-weight: 400;
-
 }
