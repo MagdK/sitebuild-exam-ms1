@@ -36,11 +36,8 @@ select {
 /* RESET OVER */
 
 
-article {
-    position: relative;
-    max-width: 1200px;
-    height: 100vh;
-    margin: 0 auto;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 #opening {
@@ -51,12 +48,18 @@ article {
     background-color: #4343f9;
 }
 
+article {
+    position: relative;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
 button {
-    font-family: 'Poppins', sans-serif;
+    position: absolute;
 }
 
 button.button1 {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -72,7 +75,6 @@ button.button1 {
 }
 
 button.button2 {
-    position: absolute;
     right: 40px;
     bottom: 40px;
     width: 200px;
@@ -87,7 +89,6 @@ button.button2 {
 }
 
 button.button3 {
-    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 40px;
