@@ -35,6 +35,10 @@ select {
 
 /* RESET OVER */
 
+body {
+    background-color: #efd592;
+}
+
 section {
     height: 100vh;
     width: 100%;
@@ -42,12 +46,13 @@ section {
     margin: 0 auto;
 }
 
-.content-width {
+section article {
     max-width: 1200px;
 }
 
 #opening {
     background-color: #efd592;
+    display: inline-block;
 }
 
 #closing {
